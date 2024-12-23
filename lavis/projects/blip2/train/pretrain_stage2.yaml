@@ -8,8 +8,8 @@ model:
   model_type: pretrain
   load_pretrained: True
   # intialize stage 2 pretraining from stage 1 pretrained model
-  pretrained: "./lavis/pretrained/blip2_pretrained_stage1.pth"
-  finetuned: "./lavis/pretrained/blip2_pretrained_stage2.pth"
+  pretrained: "/content/drive/MyDrive/Ahmed/blip2_output/checkpoint_1.pth"
+  #finetuned: "./lavis/pretrained/blip2_pretrained_stage2.pth"
   freeze_vit: True
 
 

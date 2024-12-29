@@ -7,8 +7,8 @@ model:
   arch: pretrain
   load_finetuned: False
 
-  pretrained: "./lavis/pretrained/blip2_pretrained_stage1.pth"
-  finetuned: "./lavis/pretrained/blip2_pretrained_stage2.pth"
+  pretrained: "/content/drive/MyDrive/Ahmed/blip2_japanese_output/Train_stage_1/checkpoint_1.pth"
+  finetuned: "/content/drive/MyDrive/Ahmed/blip2_japanese_output/Train_stage_2/checkpoint_1.pth"
 
   # vit encoder
   image_size: 224

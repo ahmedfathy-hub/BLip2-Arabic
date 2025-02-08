@@ -44,8 +44,8 @@ class BaseDatasetBuilder:
         # download, split, etc...
         # only called on 1 GPU/TPU in distributed
 
-        if is_main_process():
-            self._download_data()
+        #if is_main_process():
+        #    self._download_data()
 
         if is_dist_avail_and_initialized():
             dist.barrier()
@@ -86,9 +86,9 @@ class BaseDatasetBuilder:
     def default_config_path(cls, type="default"):
         return utils.get_abs_path(cls.DATASET_CONFIG_DICT[type])
 
-    def _download_data(self):
-        self._download_ann()
-        self._download_vis()
+    #def _download_data(self):
+    #    self._download_ann()
+    #    self._download_vis()
 
     def _download_ann(self):
         """

@@ -7,8 +7,8 @@ model:
   arch: pretrain
   load_finetuned: False
 
-  pretrained: "/content/drive/MyDrive/Ahmed/blip2_japanese_output/Train_stage_1/checkpoint_1.pth"
-  finetuned: "/content/drive/MyDrive/Ahmed/blip2_japanese_output/Train_stage_2/checkpoint_1.pth"
+  pretrained: "/content/drive/MyDrive/Ahmed/Shared_with_Dr_Hatem/Checkpth_5_epoch/Pretrain_stage1/pretrain_(5)epochs_stage(1)_checkpoint_1.pth"
+  #finetuned: "/content/drive/MyDrive/Ahmed/Shared_with_Dr_Hatem/Checkpth_5_epoch/Pretrain_stage1/pretrain_(5)epochs_stage(1)_checkpoint_1.pth"
 
   # vit encoder
   image_size: 224

@@ -71,4 +71,4 @@ PyTorch 2.0+ used along with the Hugging Face Transformers library, taking advan
 
 To optimize memory efficiency, mixed-precision training (FP16/FP32) applied via PyTorch’s Autocast, which reduced GPU memory consumption by approximately 30% while preserving model accuracy
 
-**The pretrained Checkpoints may be updated without prior notice. So if you need last version of Checkpoints, Contact me via [email](Ahmed.fathi@btu.ed.eg).**
+**The pretrained Checkpoints may be updated without prior notice. So if you need last version of Checkpoints, Contact me via **email : Ahmed.fathi@btu.ed.eg**

@@ -12,13 +12,13 @@ datasets:
       annotations:
         train:
           #url: https://storage.googleapis.com/sfr-vision-language-research/datasets/flickr30k_train.json
-          storage: /content/drive/MyDrive/Ahmed/annotation_in_arabic/Arabic_train.json
+          storage: /content/drive/MyDrive/MasterFolder/Ahmed/annotation_in_arabic/Arabic_train.json
         val:
           #url: https://storage.googleapis.com/sfr-vision-language-research/datasets/flickr30k_val.json
-          storage: /content/drive/MyDrive/Ahmed/annotation_in_arabic/Arabic_val.json
+          storage: /content/drive/MyDrive/MasterFolder/Ahmed/annotation_in_arabic/Arabic_val.json
         test:
           #url: https://storage.googleapis.com/sfr-vision-language-research/datasets/flickr30k_test.json
-          storage: /content/drive/MyDrive/Ahmed/annotation_in_arabic/Arabic_test.json
+          storage: /content/drive/MyDrive/MasterFolder/Ahmed/annotation_in_arabic/Arabic_test.json
       images:
-          storage: /content/flicker30k/images
+          storage: /content/flickr30k/download
           # storage: /export/share/datasets/vision/flickr30k

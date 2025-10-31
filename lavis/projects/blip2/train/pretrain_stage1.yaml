@@ -54,7 +54,7 @@ run:
   warmup_steps: 5000
 
   seed: 42
-  output_dir: "/content/drive/MyDrive/Ahmed/Shared_with_Dr_Hatem/Checkpth_5_epoch/Pretrain_stage1"
+  output_dir: "/content/drive/MyDrive/MasterFolder/Ahmed/annotation_in_arabic/OUTPUT_Checkpoints_5_epochs/Pretrain_stage1"
 
   amp: True
   resume_ckpt_path: null
